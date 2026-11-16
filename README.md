@@ -37,6 +37,11 @@ System.out.println(stream.playback().master());
 
 Pass only the public token and stream id to the page.
 
+## Full working example
+
+See [`examples/`](./examples) for a server that creates a stream and a browser page
+that plays it with hls.js + the Seedess P2P adapter.
+
 ## Methods
 
 | Method | HTTP | Purpose |
